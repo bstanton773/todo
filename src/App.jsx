@@ -1,7 +1,14 @@
 import React from 'react';
+import Nav from './components/Nav';
+import ToDo from './components/ToDo';
 
 export default function App(props) {
     return (
-        <h1 className='text-center'>Hello World</h1>
+        <>
+            <Nav />
+            <div className="container">
+                <ToDo />
+            </div>
+        </>
     )
 }
